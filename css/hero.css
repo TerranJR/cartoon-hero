@@ -1,5 +1,7 @@
 body{
 	margin: 0;
+	font-size: 15px;
+	line-height: 30px;
 }
 
 header{
@@ -7,6 +9,15 @@ header{
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+h1, h2{
+		font-family: 'Cormorant Garamond', serif;
+}
+
+h2{
+	font-size: 30px;
+	color: #D98880;
 }
 
 header h1{
@@ -24,3 +35,34 @@ header img{
  	border-radius: 150px;
     width: 300px;
     border: 5px solid #F2F3F4;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+main img{
+	width: 600px;
+    height: 700px;
+    margin-top: -200px;
+    margin-bottom: -100px;
+    margin-left: 100px;
+}
+
+footer{
+	background-color: #D98880;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	color: #F2F3F4;
+}
+
+a{
+	color: #D98880;
+}
+a:hover{
+	color: black;
+}
